@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resultado de Empleado</title>
+</head>
+<body>
+    <h1>Resultado</h1>
+    <p>Sueldo Base: <span th:text="${empleado.sueldoBase}"></span></p>
+    <p>Horas Extra: <span th:text="${empleado.horasExtra}"></span></p>
+    <p>Sueldo Total: <span th:text="${empleado.sueldoTotal}"></span></p>
+    <a href="/formulario">Registrar otro empleado</a>
+</body>
+</html>
